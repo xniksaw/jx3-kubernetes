@@ -49,7 +49,7 @@ jxRequirements:
     key: production
   gitops: true
   ingress:
-    domain: ""
+    domain: jx.xenon.work
     externalDNS: false
     namespaceSubDomain: -jx.
     tls:
@@ -80,9 +80,3 @@ jxRequirements:
     ref: master
     url: https://github.com/jenkins-x/jxr-versions.git
   webhook: lighthouse
-jxRequirementsIngressExternalDNS:
-  enabled: false
-jxRequirementsIngressTLS:
-  enabled: false
-jxRequirementsVault:
-  enabled: false

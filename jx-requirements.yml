@@ -32,7 +32,7 @@ environments:
   repository: ""
 gitops: true
 ingress:
-  domain: ""
+  domain: "jx.xenon.work"
   externalDNS: false
   namespaceSubDomain: -jx.
   tls:
